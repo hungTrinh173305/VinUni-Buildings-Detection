@@ -1,0 +1,27 @@
+# Dataset images (host on Roboflow instead)
+train/
+valid/
+test/
+building_k_raw/
+
+# Video files
+*.mp4
+*.avi
+*.mov
+video_predictions/
+
+# Training run artifacts
+runs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large sample outputs (link from README instead)
+sample_predictions/
